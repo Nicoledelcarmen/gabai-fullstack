@@ -40,7 +40,6 @@ function UserList() {
                   <th className="px-4 py-2 text-left text-white">Sex/ Age</th>
                   <th className="px-4 py-2 text-left text-white">Province/City</th>
                   <th className="px-4 py-2 text-left text-white">Mobile Number</th>
-                  <th className="px-4 py-2 text-left text-white">Password</th>
                   <th className="px-4 py-2 text-left text-white">Action</th>
                 </tr>
               </thead>
@@ -54,7 +53,6 @@ function UserList() {
                     <td className="px-4 py-2">{`${user.sex} / ${user.age}`}</td>
                     <td className="px-4 py-2">{`${user.province} / ${user.city}`}</td>
                     <td className="px-4 py-2">{user.mobileNumber}</td>
-                    <td className="px-4 py-2">{user.password}</td>
                     <td className="px-4 py-2">
                       <button className="text-black py-1 px-1 bg-gray-200 hover:bg-azure  rounded-full ...  ">
                         <svg
